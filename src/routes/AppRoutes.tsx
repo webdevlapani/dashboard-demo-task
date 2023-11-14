@@ -31,10 +31,6 @@ const AppRoutes: FC = () => {
           {/* Nested routes for authenticated dashboard and submission pages */}
           <Route path="/" element={<Dashboard />} />
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route
-            path="/submit-violations"
-            element={<h1>submit-violations</h1>}
-          />
         </Route>
       </Routes>
     </BrowserRouter>

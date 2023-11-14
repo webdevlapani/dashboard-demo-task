@@ -1,10 +1,4 @@
-import BillingSVG from "../../assets/svg/BillingSVG";
 import HomeSVG from "../../assets/svg/HomeSVG";
-import ScrollSVG from "../../assets/svg/ScrollSVG";
-import SubmitViolationsSVG from "../../assets/svg/SubmitViolationsSVG";
-import AffiliateProgramSVG from "../../assets/svg/AffiliateProgram";
-import SupportSVG from "../../assets/svg/SupportSVG";
-import FaqSVG from "../../assets/svg/FaqSVG";
 import SettingsSVG from "../../assets/svg/SettingsSVG";
 
 export const sidebarOptions = [
@@ -14,38 +8,13 @@ export const sidebarOptions = [
     url: "/dashboard",
   },
   {
-    title: "Submit Violations",
-    icon: <SubmitViolationsSVG />,
-    url: "/submit-violations",
-  },
-  {
-    title: "Whitelist",
-    icon: <ScrollSVG />,
-    url: "/whitelist",
-  },
-  {
-    title: "Billing",
-    icon: <BillingSVG />,
-    url: "/billing",
-  },
-  {
-    title: "Affiliate Program",
-    icon: <AffiliateProgramSVG />,
-    url: "/affiliate-program",
-  },
-  {
-    title: "Settings",
+    title: "MultiStep Signup",
     icon: <SettingsSVG />,
-    url: "/settings",
+    url: "/auth/multistep-signup",
   },
   {
-    title: "FAQ",
-    icon: <FaqSVG />,
-    url: "/faq",
-  },
-  {
-    title: "Support",
-    icon: <SupportSVG />,
-    url: "/support",
+    title: "Persinal Info Signup",
+    icon: <SettingsSVG />,
+    url: "/auth/personalinfo-signup",
   },
 ];
