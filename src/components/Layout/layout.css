@@ -1,0 +1,36 @@
+.main-container {
+  min-height: calc(100vh - 87px);
+}
+
+.sidebar-container {
+  height: 100%;
+  width: 280px;
+  padding: 30px;
+}
+
+.menu-item {
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 3px 0;
+  color: #5e6278;
+}
+
+.menu-item svg,
+.menu-item svg path {
+  fill: #5e6278;
+}
+
+.active {
+  background-color: #eef6ff;
+  color: #3e97ff;
+}
+
+.active svg,
+.active svg path {
+  fill: #3e97ff;
+}
+
+.layout-content {
+  background-color: #f5f7fa;
+}

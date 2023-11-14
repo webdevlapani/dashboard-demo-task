@@ -1,0 +1,31 @@
+.btn.btn-light-primary {
+  background-color: #eef6ff;
+}
+
+.btn.btn-light-primary:hover {
+  color: #fff !important;
+}
+
+.card .card-header {
+  align-items: flex-start !important;
+}
+
+.strapped-border {
+  border-bottom: 3px solid #3e97ff;
+}
+
+.checked-border {
+  border-bottom: 3px solid #7239ea;
+}
+
+.violation-border {
+  border-bottom: 3px solid #f6c000;
+}
+
+.removed-border {
+  border-bottom: 3px solid #f1416c;
+}
+
+th {
+  color: #a1a5b7 !important;
+}
