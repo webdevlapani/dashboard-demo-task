@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 const useDashboardPage = () => {
   // State for sorting configuration and data
   const [sorting, setSorting] = useState<SortingState>([]);
-  const [data, setData] = useState(() => [...defaultData]);
+  const [data] = useState(() => [...defaultData]);
 
   // Creating a column helper instance
   const columnHelper = createColumnHelper<any>();
