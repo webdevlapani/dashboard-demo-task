@@ -29,6 +29,7 @@ const AppRoutes: FC = () => {
         {/* Route for the Layout component, used for authenticated pages */}
         <Route element={<Layout />}>
           {/* Nested routes for authenticated dashboard and submission pages */}
+          <Route path="/" element={<Dashboard />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route
             path="/submit-violations"
